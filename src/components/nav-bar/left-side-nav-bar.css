@@ -1,0 +1,30 @@
+.left-side-navbar {
+    background-color: red;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-side-navbar button {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 2rem;
+    background-color: bisque;
+    border-radius: 0.37rem;
+}
+
+li {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+a {
+    font-size: 3rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+[data-collapse="true"] {
+    width: 2%;
+}
